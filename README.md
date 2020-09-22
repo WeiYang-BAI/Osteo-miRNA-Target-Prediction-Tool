@@ -20,15 +20,18 @@ Arguments:
 
 	-H/-h	Show this help-doc.
 
-	-miRNA	The miRNAs list file , one miRNA per line. Please use the complete miRNA name, e.g. hsa-miR-218-5p.
+	-miRNA	The miRNAs list file , one miRNA per line. Please use the complete miRNA name,
+		e.g. hsa-miR-218-5p.
 
-	[-tarScanScore]	Optional. The threshold of cumulative weighted context++ score in TargetScan v7.2 to filter 
-			results. The predicted target with the score great than this threshold will be filtered out.
-			The value range is [-1, 0] (-1 means best prediction). The defult value is -0.2.
+	[-tarScanScore]	Optional. The threshold of cumulative weighted context++ score in
+			TargetScan v7.2 to filter results. The predicted target with the score
+			great than this threshold will be filtered out. The value range is [-1, 0]
+			(-1 means best prediction). The defult value is -0.2.
 
-	[-miRDBScore]	Optional. The threshold for prediction confidence in miRDB-V6.0 to filter results. The predicted
-			target with the score lower than this threshold will be filtered out. The value range is [50, 100]
-			(100 means best prediction). The defult value is 60.
+	[-miRDBScore]	Optional. The threshold for prediction confidence in miRDB-V6.0 to filter
+			results. The predicted target with the score lower than this threshold will
+			be filtered out. The value range is [50, 100] (100 means best prediction).
+			The defult value is 60.
 
 	-outputDir	A folder will be used to store results.
 
