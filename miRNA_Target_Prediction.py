@@ -90,7 +90,7 @@ def GetFinalTarget(miR, tsc, rdb, out):
 
 if __name__ == '__main__':
 		helpDoc = '''
--H/-h	Show this help-doc.
+-H/-h	Show this help message and exit.
 
 -miRNA	The miRNAs list file , one miRNA per line. Please use the
 	complete miRNA name, e.g. hsa-miR-218-5p.
